@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Plastic Reduction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Reduce Plastic Together, Make Our Campus Greener!</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#challenge">Challenge</a>
+      <a href="#impact">Impact</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Plastic Reduction</h2>
+    <p>Plastic pollution affects our planet and our campus. Let's take action to reduce it.</p>
+    <ul>
+      <li>SDG 12: Responsible Consumption and Production</li>
+      <li>SDG 13: Climate Action</li>
+      <li>SDG 14: Life Below Water</li>
+    </ul>
+  </section>
+
+  <section id="challenge">
+    <h2>Plastic Reduction Challenge</h2>
+    <p>Complete these daily eco-friendly tasks and track your progress!</p>
+    <ul>
+      <li><input type="checkbox" class="task"> Bring a reusable cup</li>
+      <li><input type="checkbox" class="task"> Reduce plastic bag usage</li>
+      <li><input type="checkbox" class="task"> Use zero-waste utensils</li>
+    </ul>
+    <p>Completion rate: <span id="completion">0%</span></p>
+    <canvas id="chart" width="300" height="200"></canvas>
+  </section>
+
+  <section id="impact">
+    <h2>Impact / Achievements</h2>
+    <p>Our campus has reduced plastic waste through awareness and action.</p>
+    <ul>
+      <li>Plastic saved: 1,200 cups and 600 bags</li>
+      <li>Participants: 320 students</li>
+      <li>Average completion rate: 78%</li>
+    </ul>
+  </section>
+
+  <section id="resources">
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="#">Plastic Reduction Tips (PDF)</a></li>
+      <li><a href="#">Environmental Videos</a></li>
+      <li><a href="#">NGO & Sustainability Links</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name: <input type="text" /></label><br>
+      <label>Email: <input type="email" /></label><br>
+      <label>Message:<br><textarea></textarea></label><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Campus Plastic Reduction Project</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
