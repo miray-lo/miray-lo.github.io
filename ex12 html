@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello World Styles</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  /* 第一個方框 */
+  .box1 {
+    background-color: lightblue;
+    border: 5px double red;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .box1 h1 {
+    margin: 0;
+    color: black;
+  }
+
+  /* 第二個方框 */
+  .box2 {
+    background-color: yellow;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .box2 h1 {
+    margin: 0;
+    color: black;
+  }
+
+  /* 第三個方框（點狀背景） */
+  .box3 {
+    background-color: green;
+    background-image: radial-gradient(brown 10%, transparent 11%);
+    background-size: 30px 30px;
+    padding: 10px;
+  }
+  .box3 h1 {
+    margin: 0;
+    color: darkgreen;
+  }
+</style>
+</head>
+<body>
+
+  <div class="box1">
+    <h1>Hello World</h1>
+  </div>
+
+  <div class="box2">
+    <h1>Hello World</h1>
+  </div>
+
+  <div class="box3">
+    <h1>Hello World</h1>
+  </div>
+
+</body>
+</html>
